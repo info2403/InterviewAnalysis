@@ -150,7 +150,7 @@ for (topic in 1:4) {
 
 # ---------------------------------------------------------------------
 # R Script for Sentiment Analysis and Plots
-# Purpose: 
+# Purpose: See the sentiment for each interview
 # Author: Sonal Mendonca
 # Date Created: 2024-01-20
 # Last Modified: 2024-04-15
@@ -231,7 +231,7 @@ barplot(RadDos_sentiment_summary, las=2, col=rainbow(length(consultant_sentiment
 
 # ---------------------------------------------------------------------
 # R Script for N-grams
-# Purpose: 
+# Purpose: to see common terms together
 # Author: Sonal Mendonca
 # Date Created: 2024-01-20
 # Last Modified: 2024-04-15
@@ -280,7 +280,7 @@ wordcloud(names(consultant_top_trigrams), consultant_top_trigrams, min.freq = 1,
 
 # ---------------------------------------------------------------------
 # R Script for N-grams keywords
-# Purpose: 
+# Purpose: To see common words linked with the key words
 # Author: Sonal Mendonca
 # Date Created: 2024-01-20
 # Last Modified: 2024-04-15
@@ -334,7 +334,7 @@ get_top_trigrams(consultant_workload_corpus, "Patient", top_n = 10)
 
 # ---------------------------------------------------------------------
 # R Script forsentiment analysis of keywords
-# Purpose: 
+# Purpose: To look at the sentiment scores for each keyword
 # Author: Sonal Mendonca
 # Date Created: 2024-01-20
 # Last Modified: 2024-04-15
